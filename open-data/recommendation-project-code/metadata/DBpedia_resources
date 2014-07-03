@@ -1,0 +1,10 @@
+dbpprop:author
+dbpprop:country
+dbpedia-owl:literaryGenre
+dbpprop:language
+dbpprop:name
+dcterms:subject
+dbpedia-owl:previousWork
+dbpedia-owl:subsequentWork
+dbpedia-owl:publisher
+dbpprop:pages

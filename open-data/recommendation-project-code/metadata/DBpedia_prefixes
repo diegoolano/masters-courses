@@ -1,0 +1,4 @@
+dbpedia-owl :is prefix of: <http://dbpedia.org/ontology/>
+dbpprop :is prefix of:   <http://dbpedia.org/property/>
+dbpedia :is prefix of: <http://dbpedia.org/resource/>
+dcterms :is prefix of: <http://purl.org/dc/terms/>

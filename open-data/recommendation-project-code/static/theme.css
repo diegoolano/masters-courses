@@ -1,0 +1,27 @@
+body {background-color:rgb(249, 249, 249); width: 1200px; margin: 0 auto; font-size:12px;}
+.book {float:left; width:260px; border: 2px solid white; height: 330px; line-height:16px }
+.book img{width: 98px; height: 159px}
+.book table{line-height:15px}
+.content:nth-child(4n){clear:both}
+.book .rating{color:blue}
+.book .numreviews{font-size:12px}
+.single {width:400px}
+#search {position:relative; width:150px;}
+#search .submitLink img{position:absolute; right: 4px; top:4px; border:0;}
+#headerSearchForm{}
+div.login{text-align:right; width:990px; margin-top:-35px; margin-bottom:20px; }
+div.login a{text-decoration:none; color:black; font-weight:bold; font-size:16px}
+div.login a:hover{color:blue}
+#profile {font-size:18px; font-weight:bold}
+.usertop{color:red; font-weight:bold; font-size:16px;}
+.blue{color:blue; font-weight:bold;font-size:16px;}
+#pagetitle { text-align:center; width:1000px; font-size: 20px; margin-bottom:5px; }
+#ratingarea {font-size:16px; font-weight:bold}
+.red{color:red}
+.italic{font-style:italic; font-weight:bold; color:gray; font-size:14px;}
+.thoughts{color:blue;}
+#collab_content{clear:both}
+.content_based{clear:both; margin-top: 30px; padding-top: 30px;}
+.content_based .blue{color:blue; font-size:30px}
+.content_based .green{color:green; font-size:24px}
+#content .green{color:green; font-size:24px}

@@ -1,0 +1,78 @@
+{
+	"frontend":
+	{ 
+		"searchby":["title","author"], 
+		"results":{"page":10}, 
+		"metadata_to_display":["title","author","genre","year_of_publication",
+		                        "cover_image","rating","country"]
+	}, 
+	"external_sources":
+	{
+		"dbpedia":
+		{ 
+			"searchby":
+			{
+				"title":
+				{
+					"title": { "value":"http://dbpedia.org/property/name", "main":true },
+					"author": {  "value":["http://dbpedia.org/property/author",
+					             "http://dbpedia.org/property/name"], "main":false  }
+				}
+			},
+			"mapping":
+			{   "title":"http://dbpedia.org/property/name",
+			    "author":"http://rdf.recommender/authorName",
+			    "country":"http://dbpedia.org/property/country"
+			},
+			"mapping_depth":1,
+			"index":"value",
+			"matching": { "title":"title", "author":"author" }
+		},
+	    "goodreads":
+	    {
+	        "searchby":
+	        {
+	            "title":"best_book.title",
+	            "author":"best_book.author.name"
+	        },
+	        "mapping":{ "cover_image":"best_book.image_url",
+	                    "year_of_publication":"original_publication_year.val",
+	                    "title":"best_book.title",
+	                    "author":"best_book.author.name"},
+	        "mapping_depth":0,
+	        "index":"",
+	        "confidence_threshold":0.5,
+			"matching": { "title":"best_book.title", "author":"best_book.author.name" }
+	    }
+	},
+	"backend":
+	{
+	    "searchby":{"title":"booktitle", "author":"authorname"},
+	    "mapping":{"rating":"ratings.internal"}
+	},
+	"searchrules" : 
+	{
+		"dbpedia_as_master_external_source":true,
+		"check_for_local_version_first":true,
+		"goodreads_select_most_rated_as_best":false,
+		"similarity":
+		{
+			"current":"author.genre",
+			"criteria":
+			{
+				"author": [ { "name":"author", "value":"http://dbpedia.org/property/author" } ],
+				"genre": [ { "name":"genre", "value":"http://dbpedia.org/ontology/literaryGenre" } ],
+				"author_genre": 
+					[ 
+						{ "name":"author", "value":"http://dbpedia.org/property/author" }, 
+						{ "name":"genre", "value":"http://dbpedia.org/ontology/literaryGenre" }
+					],
+				"country_subject": 
+					[ 
+						{ "name":"subject", "value":"http://purl.org/dc/terms/subject" },
+						{ "name":"country", "value":"http://dbpedia.org/property/country" }
+					]
+			}
+		}
+	}
+}

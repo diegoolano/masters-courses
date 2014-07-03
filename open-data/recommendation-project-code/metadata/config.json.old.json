@@ -1,0 +1,38 @@
+{
+	"frontend":
+	{ 
+		"searchby":["title","author"], 
+		"results":{"page":10}, 
+		"metadata_to_display":["title","author","genre","year_of_publication","cover_image","rating"]
+	}, 
+	"external_sources":
+	{
+		"dbpedia":
+		{ 
+			"searchby":
+			{
+				"title":"property/name",
+				"author":"property/author"
+			},
+			"mapping":{"title":"rdf.title","author":"rdf.author","year_of_publication":"rdf.year"},
+			"query":
+			{
+				"regexpBooks":" PREFIX dbpprop: <http://dbpedia.org/property/>
+								SELECT DISTINCT 
+									?book 
+									?title 
+									(SAMPLE(?author) as ?author)
+								WHERE { 
+									?book dbpprop:author ?a .
+									?a dbpprop:name ?author .
+									?book dbpprop:name ?title .
+									FILTER(REGEX(?title, \"[REGEXP]\", \"i\")) 
+								}
+			}
+			
+			GROUP BY ?book ?title"
+		},
+	"goodreads":{ "searchby":{"title":"best_book.title", "author":"best_book.author.name"}, "mapping":{"cover_image":"best_book.image_url", "rating":"average_rating"}}},
+	"backend":{ "searchby":{"title":"booktitle", "author":"authorname"}, "mapping":{"rating":"ratings.internal"}},
+	"searchrules" : {"dbpedia_as_master_external_source":true,"check_for_local_version_first":true, "goodreads_select_most_rated_as_best":true}
+}
