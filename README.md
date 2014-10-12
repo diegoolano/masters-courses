@@ -2,7 +2,7 @@ masters-courses
 ===============
 
 The following are projects/papers/presentations/assignments/code I needed to turn in for classes taken while at the [Universitat Politecnica de Catalunya](www.upc.edu) in Barcelona
-in order to fufill my requirements for the [Masters of Research and Innovation in Data Mining](http://www.fib.upc.edu/en/masters/miri.html).  I still have one year to go :)
+in order to fufill my requirements for the [Masters of Research and Innovation in Data Mining](http://www.fib.upc.edu/en/masters/miri.html).  one year to go :)
 
 Semester 1:
 -----------
@@ -11,6 +11,7 @@ Semester 1:
 3. [Concurrency, Parallelism and Distributed Systems](http://www.fib.upc.edu/en/masters/miri/syllabus.html?assig=CPDS-MIRI)
 4. [Statistical Methods, Queuing Theory, and Design of Experiments](http://www.fib.upc.edu/en/masters/miri/syllabus.html?assig=SMDE-MIRI)
 5. [Data Analysis and Knowledge Discovery](http://www.fib.upc.edu/en/masters/miri/syllabus.html?assig=DAKD-MIRI)
+6. attended: [Advanced Machine Learning Techinques](http://www.fib.upc.edu/en/masters/mai/syllabus.html?assig=AMLT-MAI)
 
 Semester 2:
 -----------
@@ -20,3 +21,12 @@ Semester 2:
 4. [Open Data](http://www.fib.upc.edu/en/masters/miri/syllabus.html?assig=OD-MIRI)
 5. [Data Warehousing](http://www.fib.upc.edu/en/masters/miri/syllabus.html?assig=DW-MIRI)
 6. Seminar: [Datastream Mining](http://datastreamsspring2014.blogspot.com.es)
+
+Semester 3 (currently):
+------------
+1. [Advanced Statistical Models](http://www.fib.upc.edu/en/masters/miri/syllabus.html?assig=ASM-MIRI)
+2. [Information Retrieval](http://www.fib.upc.edu/en/masters/miri/syllabus.html?assig=IR-MIRI)
+3. Econometrics - in the Masters of Operations and Research (class in spanish)
+4. [Bioinformatics and Statistical Genetics](http://www.fib.upc.edu/en/masters/miri/syllabus.html?assig=BSG-MIRI)
+5. [Statistical Natural Language Processing](http://www.fib.upc.edu/en/masters/miri/syllabus.html?assig=SNLP-MIRI)
+6. following: [Complex and Social Networks](http://www.fib.upc.edu/en/masters/miri/syllabus.html?assig=CSN-MIRI)
