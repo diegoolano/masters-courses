@@ -22,7 +22,7 @@ Semester 2:
 5. [Data Warehousing](http://www.fib.upc.edu/en/masters/miri/syllabus.html?assig=DW-MIRI)
 6. Seminar: [Datastream Mining](http://datastreamsspring2014.blogspot.com.es)
 
-Semester 3 (currently):
+Semester 3:
 ------------
 1. [Advanced Statistical Models](http://www.fib.upc.edu/en/masters/miri/syllabus.html?assig=ASM-MIRI)
 2. [Information Retrieval](http://www.fib.upc.edu/en/masters/miri/syllabus.html?assig=IR-MIRI)
@@ -30,3 +30,8 @@ Semester 3 (currently):
 4. [Bioinformatics and Statistical Genetics](http://www.fib.upc.edu/en/masters/miri/syllabus.html?assig=BSG-MIRI)
 5. [Statistical Natural Language Processing](http://www.fib.upc.edu/en/masters/miri/syllabus.html?assig=SNLP-MIRI)
 6. following: [Complex and Social Networks](http://www.fib.upc.edu/en/masters/miri/syllabus.html?assig=CSN-MIRI)
+
+Semester 4 (currently):
+------------
+1. following: Bayesian Statistics
+2. Thesis project: [WhoYouElect.com](http://whoyouelect.com)
